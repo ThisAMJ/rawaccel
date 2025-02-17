@@ -26,9 +26,6 @@ bld/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
-signed/*
-!signed/driver/
-!signed/*install*.exe
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -352,3 +349,15 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# signed files 
+signed/**
+!signed/readme.txt
+!signed/*/
+!signed/*/sign.ps1
+!signed/*/*install*.exe
+!signed/*/rawaccel.ddf
+!signed/*/rawaccel.inf
+!signed/*/driver/
+!signed/*/driver/rawaccel.sys
+signed/RawAccel/
